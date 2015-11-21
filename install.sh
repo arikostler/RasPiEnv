@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # update, upgrade, install programs
-#sudo apt-get update && sudo apt-get upgrade -y
-#sudo apt-get install -y vim
-#sudo apt-get install -y screen
+sudo apt-get update && sudo apt-get upgrade -y
+sudo apt-get install -y vim
+sudo apt-get install -y screen
 
 # Install Aliases file
 if [ -f .bash_aliases ]; then
