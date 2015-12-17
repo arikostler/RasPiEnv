@@ -1,1 +1,6 @@
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias lsl='ls -l'
 alias cls='clear && ls'
+alias clsa='clear && ls -a'
