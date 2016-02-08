@@ -1,0 +1,9 @@
+
+
+[webshare]
+	comment = Web Drive for Raspbery Pi
+	path = /var/www
+	browseable = yes
+	readonly = no
+	create mask = 0755
+	guest ok = no
