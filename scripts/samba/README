@@ -1,0 +1,7 @@
+You only want to run this script once.
+I'll try to add a cleanup file or a better
+method of adding shares at a later time.
+
+If you run this more than once in its current state,
+It will try to make multiple webshares without deleting
+the old ones. Restore /etc/samba/smb.conf.backup first!
