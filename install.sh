@@ -25,7 +25,7 @@ fi
 # set up startup script and folder
 if [ -f bin/runUserStartupScripts.sh ]; then
 	echo "Setting up startup folder..."
-	mkdir /home/pi/.startup
+	mkdir ~/.startup
 	sudo cp bin/runUserStartupScripts.sh /etc/init.d/runUserStartupScripts.sh
 	sudo chmod 755 /etc/init.d/runUserStartupScripts.sh
 	sudo update-rc.d runUserStartupScripts.sh defaults
