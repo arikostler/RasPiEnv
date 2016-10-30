@@ -1,0 +1,9 @@
+
+
+[pishare]
+	comment = pishare for Raspbery Pi
+	path = /mnt/pishare
+	browseable = yes
+	readonly = no
+	create mask = 0755
+	guest ok = no
